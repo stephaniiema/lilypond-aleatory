@@ -1,0 +1,8 @@
+d e cis aes
+f bes a c b
+es g ges d e cis aes 
+f bes a c b es g ges
+d e cis aes f bes a c
+b es g ges d e cis
+aes f bes a c
+b es g ges
