@@ -25,6 +25,10 @@ The two parts can be recorded separately and combined in an DAW or the computer 
 ### Requirements
 * Install [Python](https://www.python.org/downloads/)
 * Install [LilyPond](https://lilypond.org/download.html)
+    * for Mac with Homebrew
+      ```
+      brew install lilypond
+      ```
 
 ### Score Generation Instructions
 1. Clone and navigate to the repo 
