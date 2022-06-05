@@ -1,4 +1,7 @@
-*.pdf
+
+rhythm_cells.pdf
+score.pdf
+
 *.midi
 rhythm_cells.ly
 score.ly
