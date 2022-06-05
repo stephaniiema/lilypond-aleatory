@@ -32,7 +32,7 @@ The two parts can be recorded separately and combined in an DAW or the computer 
    git clone https://github.com/stephaniiema/lilypond-aleatory.git
    cd lilypond-aleatory
    ```
-2. Run `score_generatory.py`
+2. Run `score_generator.py`
    ```sh
    python score_generator.py
    ```
