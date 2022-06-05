@@ -22,10 +22,10 @@ melody = \fixed c' {
   \bar "||"
 
   \time 2/4
-  b8 r r4
-  b16 b r8 r4
+  b8\snappizzicato r r4
+  b16-> b r8 r4
   b8 r b r
-  b2
+  b2\p
   \break
   
   % line 2
@@ -42,11 +42,11 @@ melody = \fixed c' {
 
 
   \time 2/4
-  b16 b b r r4
+  b16-> b b r r4
   \tuplet 3/2 { b8 b8 b8 } r4
   b16 b8 b16 r4
   b4 b16 b16 r8
-  b2
+  b2\mp
   \break
 
   % line 3
@@ -62,12 +62,12 @@ melody = \fixed c' {
   \bar "||"
 
   \time 2/4
-  b16 b b b r4
+  b16-> b b b r4
   b8 b b b
   \tuplet 3/2 { b8 b8 b8 } b8 r8
   b8 b~ b b16 b
   b8. b16 b16 b8.
-  b2
+  b2\mf
   \break
 
   % line 4
@@ -85,11 +85,11 @@ melody = \fixed c' {
   \time 2/4
   \tuplet 3/2 { b8 b8 b8 } b8 b
   b8 b16 b b8 b
-  b16 b b b b4
+  b16-> b b b b4
   b4 b4
   b8 b~ b16 b b b
   b8. b16 b b b8
-  b2
+  b2\f
   \break
 
   % line 5
@@ -107,11 +107,11 @@ melody = \fixed c' {
   \time 2/4
   b8 b \tuplet 3/2 { b8 b8 b8 }
   b8 b b16 b b8
-  b4 b16 b b b
+  b4 b16 b b b->
   b4 b4
   b16 b b b~ b8 b
   b8 b16 b b b8.
-  b2
+  b2\f
   \break
 
   % line 6
@@ -127,12 +127,12 @@ melody = \fixed c' {
   \bar "||"
 
   \time 2/4
-  r4 b16 b b b
+  r4 b16 b b b->
   b8 b b b
   r8 b8 \tuplet 3/2 { b8 b8 b8 }
   b16 b b8~ b b
   b8. b16 b b8.
-  b2
+  b2\mf
   \break
 
   % line 7
@@ -148,11 +148,11 @@ melody = \fixed c' {
   \bar "||"
 
   \time 2/4
-  r4 r16 b b b
+  r4 r16 b b b->
   r4 \tuplet 3/2 { b8 b8 b8 }
   r4 b16 b8 b16
   r8 b16 b16 b4
-  b2
+  b2\mp
   \break
 
   % line 8
@@ -168,10 +168,10 @@ melody = \fixed c' {
   \bar "||"
 
   \time 2/4
-  r4 r8 b
-  r4 r8 b16 b
+  r4 r8 b\snappizzicato
+  r4 r8 b16 b->
   r8 b r b
-  b2
+  b2\p
   \break
 }
 

@@ -39,7 +39,7 @@ for i in range(len(NUM_CELLS)):
                 output[i][j].append(x.replace('b',note))
             else:
                 output[i][j].append(x)
-        if j == 4:
+        if j == NUM_CELLS[i]-1:
             output[i][j].append('\\bar \"||\" \\break\n')
 
 for i in range(len(output)):
