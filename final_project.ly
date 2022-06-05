@@ -16,7 +16,7 @@ melody = \fixed c' {
   \once \omit Staff.TimeSignature
   \cadenzaOn
   \override Stem.length = #0
-  d4 e cis aes
+  d4 e
   \revert Stem.length
   \cadenzaOff
   \bar "||"
@@ -34,7 +34,7 @@ melody = \fixed c' {
   \cadenzaOn
   \override Stem.length = #0
   \omit Flag
-  f8 bes a c b
+  cis8 aes f
   \revert Flag.stencil
   \revert Stem.length
   \cadenzaOff
@@ -55,7 +55,7 @@ melody = \fixed c' {
   \cadenzaOn
   \override Stem.length = #0
   \omit Flag
-  es16 g ges d e cis aes 
+  bes16 a c b
   \revert Stem.length
   \revert Flag.stencil
   \cadenzaOff
@@ -76,7 +76,7 @@ melody = \fixed c' {
   \cadenzaOn
   \override Stem.length = #0
   \omit Flag
-  f16 bes a c b es g ges
+  es8 g ges
   \revert Stem.length
   \revert Flag.stencil
   \cadenzaOff
@@ -98,7 +98,7 @@ melody = \fixed c' {
   \cadenzaOn
   \override Stem.length = #0
   \omit Flag
-  f16 bes a c b es g ges
+  ges4 g
   \revert Stem.length
   \revert Flag.stencil
   \cadenzaOff
@@ -120,7 +120,7 @@ melody = \fixed c' {
   \cadenzaOn
   \override Stem.length = #0
   \omit Flag
-  es16 g ges d e cis aes 
+  es16 b c a
   \revert Stem.length
   \revert Flag.stencil
   \cadenzaOff
@@ -141,7 +141,7 @@ melody = \fixed c' {
   \cadenzaOn
   \override Stem.length = #0
   \omit Flag
-  f8 bes a c b
+  bes8 f aes
   \revert Stem.length
   \revert Flag.stencil
   \cadenzaOff
@@ -158,9 +158,10 @@ melody = \fixed c' {
   % line 8
   \set Score.currentBarNumber = #8
   \once \omit Staff.TimeSignature
+  \omit Flag
   \cadenzaOn
   \override Stem.length = #0
-  d4 e cis aes
+  cis8 e d
   \revert Stem.length
   \revert Flag.stencil
   \cadenzaOff
