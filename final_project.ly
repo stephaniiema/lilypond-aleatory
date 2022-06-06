@@ -12,6 +12,7 @@ melody = \fixed c' {
   \key c \major
 
   % line 1
+  \mark \markup{\tiny {~10'' or 5 cells}}
   \set Score.currentBarNumber = #1
   \once \omit Staff.TimeSignature
   \cadenzaOn
@@ -29,6 +30,7 @@ melody = \fixed c' {
   \break
   
   % line 2
+  \mark \markup{\tiny {~12'' or 6 cells}}
   \set Score.currentBarNumber = #2
   \once \omit Staff.TimeSignature
   \cadenzaOn
@@ -50,6 +52,7 @@ melody = \fixed c' {
   \break
 
   % line 3
+  \mark \markup{\tiny {~16'' or 8 cells}}
   \set Score.currentBarNumber = #3
   \once \omit Staff.TimeSignature
   \cadenzaOn
@@ -71,6 +74,7 @@ melody = \fixed c' {
   \break
 
   % line 4
+  \mark \markup{\tiny {~22'' or 11 cells}}
   \set Score.currentBarNumber = #4
   \once \omit Staff.TimeSignature
   \cadenzaOn
@@ -93,6 +97,7 @@ melody = \fixed c' {
   \break
 
   % line 5
+  \mark \markup{\tiny {~22'' or 11 cells}}
   \set Score.currentBarNumber = #5
   \once \omit Staff.TimeSignature
   \cadenzaOn
@@ -115,6 +120,7 @@ melody = \fixed c' {
   \break
 
   % line 6
+  \mark \markup{\tiny {~16'' or 8 cells}}
   \set Score.currentBarNumber = #6
   \once \omit Staff.TimeSignature
   \cadenzaOn
@@ -136,6 +142,7 @@ melody = \fixed c' {
   \break
 
   % line 7
+  \mark \markup{\tiny {~12'' or 6 cells}}
   \set Score.currentBarNumber = #7
   \once \omit Staff.TimeSignature
   \cadenzaOn
@@ -156,6 +163,7 @@ melody = \fixed c' {
   \break
 
   % line 8
+  \mark \markup{\tiny {~10'' or 5 cells}}
   \set Score.currentBarNumber = #8
   \once \omit Staff.TimeSignature
   \omit Flag
@@ -172,7 +180,7 @@ melody = \fixed c' {
   r4 r8 b16 b->
   r8 b r b
   b2\p
-  \break
+  \bar "|."
 }
 
 \header{
